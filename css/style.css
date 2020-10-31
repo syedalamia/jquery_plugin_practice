@@ -1,0 +1,119 @@
+.lining{
+  border-bottom: 4px solid black;
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 16px 0;
+}
+
+.counting{
+  background-color: #63157dcf;
+  padding: 38px 0px;
+  color: white;
+}
+
+.menu{
+  
+  font-size: 31px;
+}
+.para {
+  padding: 25px;
+}
+
+.red{
+  background-color: #2e5054d4;
+}
+
+
+
+/*slider*/
+.btn {
+
+    color: white;
+
+}
+
+.btn-thirdy {
+ 
+    background-color: #710505c9;
+    border-color: #072641d6;
+}
+
+.myPanel {
+  width: 400px;
+  background-color: #fff;
+  overflow: hidden !important;
+  z-index: 150000;
+  box-shadow: 8px 0 8px -10px #000000,-8px 0 8px -10px #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1999999999;
+  text-align: left;
+  background: #fff;
+  pointer-events: auto;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+.navigation-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100vh;
+  background-color: rgba(34,32,32,.7);
+  z-index: 298;
+  cursor: pointer;
+}
+
+.is-visible {
+  visibility: visible;
+}
+
+.is-hidden {
+  display: none;
+}
+
+
+
+/*partical*/
+#particles-js{
+  height: 500px;
+  background-color: #123102d9;
+}
+
+.parti h1,p{
+
+  color:white;
+}
+
+
+/*ripple start*/
+.ripple_class{
+ background-image: url('../images/bird.jpg');
+ background-size: cover;
+
+ text-align: center;
+
+ margin-top: 100px;
+
+}
+.ripple_class:before{
+content: '';
+display: inline-block;
+vertical-align: middle;
+
+
+}
+
+.ripple_working p{
+ padding: 100px;
+ color: black;
+}
+
+.ending1{
+  text-align: right;
+}
